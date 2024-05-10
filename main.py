@@ -9,8 +9,8 @@ def main():
 
     #load data
     train_df, test_df = load_data()
-    train_sdf = train_df.head(2000)
-    valid_sdf = train_df.tail(2000)
+    train_sdf = train_df.head(2000)#train_df.head(800)
+    valid_sdf = train_df.tail(2000)#train_df.head(800)
     test_sdf = test_df.head(500)
     train_test = train_df.head(500)
 
